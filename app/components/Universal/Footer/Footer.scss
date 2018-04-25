@@ -1,0 +1,77 @@
+
+footer .head{
+    background-image: linear-gradient(105deg, #3023ae, #c86dd7);
+    text-align: center;
+    width: 100%;
+}
+footer .head .row div{
+    padding-top: 70px;
+    padding-bottom:50px;
+    text-align: center;
+}
+
+footer .head p{
+    font-family:'Lato';
+    font-size: 24px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.8px;
+    text-align: left;
+    color: #ffffff;
+    padding: 10px;
+    cursor: pointer;
+}
+
+footer .head .row:last-child > p{
+    padding-left: 1px;
+}
+.lastColumn-relative{
+    position: relative;
+}
+footer .head .follow{
+    position: relative;
+    height: 100%;
+    margin-top: 5px;
+}
+footer .head .follow img{
+    cursor: pointer;
+    width: 50px;
+}
+.bottomLine{
+    position: absolute;
+    bottom: -22px;
+    left: -3px;
+}
+.bottomLine p{
+    display: inline;
+    font-family:'Lato';
+    font-size: 16px !important;
+    color: #ffffff !important;
+    letter-spacing: 1px;
+    padding: 10px 0px 0px 20px !important;
+}
+.bottomLine img{
+    margin-top: -20px !important;
+}
+footer .head .follow img{
+    margin-left: 10px;
+    display: inline;
+}
+footer .foot{
+    background-color: #000000;
+    text-align: center;
+}
+footer .foot p{
+    color:#fff;
+    font-family: 'Lato';
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 1.6px;
+    padding:14px 0px;;
+
+}

@@ -1,0 +1,154 @@
+.layer{
+    width: 100%;
+    margin-top:100px;
+    height: 500px;
+    position: relative;
+    background: url('../../images/bitmap.png') no-repeat center center fixed;
+    mix-blend-mode: multiply;
+}
+.layer .Rectangle{
+    width: 500px;
+    height: auto;
+    position: absolute;
+    right: 0;
+    bottom:30px;
+    font-family:'Lato-Regular';
+    border-radius: 47px 0px 0px 47px;
+    background-color: #ffffff;
+    box-shadow: -10px 7px 25px 0 rgba(0, 0, 0, 0.34);
+  }
+.layer .Rectangle p{
+    font-size: 22px;
+    text-align: justify;
+    color: #4a4a4a;
+    letter-spacing: 3px;
+    padding-left: 60px;
+    padding-top: 60px;
+    margin-bottom: 20px;
+}
+.layer .Rectangle img{
+   width: 17px;
+   margin: 1px 3px 1px 1px;
+
+}
+
+.group {
+        margin-top: 40px;
+        margin-bottom: 20px;
+        position: relative;
+}
+.group input{
+        border: #000;
+        padding: 10px;
+        font-size: 1.2em;
+        width: 80%;
+        margin: 0 40px 20px 60px;
+        outline: none;
+        border-bottom:solid 2px #4a4a4a;;
+}
+   
+.group label{
+    top:13px;
+    left:70px;
+    pointer-events: none;
+    opacity: 0.64;
+    font-size: 20px;
+    letter-spacing: 0.7px;
+    color: #9b9b9b;
+    position: absolute;
+    transition: all 0.1s;
+  }
+ 
+ .group input:focus  ~ label,input:valid ~ label{
+    top:-15px;
+    left:65px;
+    opacity: 1;
+    color: #9b9b9b;
+    font-size: 18px;
+  }
+
+.layer .BookResidential{
+    font-size: 15px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.21;
+    letter-spacing: 0.5px;
+    text-align: justify;
+    color: #000000;
+    margin:10px 50px 30px 60px;
+  
+}
+.layer .BookResidential .PassIcon{
+    float: left;
+}
+.layer .BookResidential .PassIcon::after{
+    clear: both;
+    content: "";
+    display: block;
+}
+.layer .BookResidential .PassIcon img{
+    display: block;
+    width: 30px;
+}
+.layer .BookResidential .text{
+    margin-left: 35px;
+}
+
+.book-container{
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+.book-container span{
+    border-radius: 19px;
+    background-color: #50e3c2;
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 500;
+    padding: 23px 149px;
+    cursor: pointer;
+}
+/* Layer Style */
+
+/* Middle Layer */
+.middle-layer{
+background-color: #f8f8f9;
+}
+
+.middle-layer .text{
+font-family: 'Avenir';
+font-size: 25px;
+text-align: center;
+color: #000000;
+padding: 60px 10px;
+}
+.middle-layer .box{
+text-align: center;
+padding: 2px 30px;
+}
+.middle-layer .box img{
+max-height: 150px;
+max-width: 150px;
+margin-bottom: 20px;
+}
+.middle-layer .box  h3{
+font-family: 'Lato';
+font-size: 30px;
+font-weight: 500;
+font-style: normal;
+font-stretch: normal;
+line-height: normal;
+letter-spacing: 0.8px;
+text-align: center;
+color: #4a4a4a;
+}
+.middle-layer .box  p{
+text-align: center;
+color: rgba(74, 74, 74, 0.64);
+padding-bottom: 30px;
+
+}
+.globalContainer{
+    position: relative;
+}
