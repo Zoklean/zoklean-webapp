@@ -15,7 +15,10 @@ import Navbar from '../../components/Universal/Navbar/Navbar';
 import Footer from '../../components/Universal/Footer/Footer';
 import Toplayer from './Toplayer';
 import Middlelayer from './Middlelayer';
+import MeetyourPartner from './MeetyourPartner';
+import Contractor from './Contractor';
 import './HomePage.scss';
+
 export default class HomePage extends React.PureComponent { // eslint-disable-line react/prefer-stateless-function
   render() {
     return (
@@ -23,6 +26,8 @@ export default class HomePage extends React.PureComponent { // eslint-disable-li
           <Navbar/>
           <Toplayer/>
           <Middlelayer/>
+          <MeetyourPartner/>
+          <Contractor/>
            <Footer/>
       </div>
     );
